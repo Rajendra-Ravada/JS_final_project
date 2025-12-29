@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register | SampleKart</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+<div class="auth-container">
+    <h2>Create Account</h2>
+
+    <form id="registerForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="message" class="auth-link"></p>
+
+    <p class="auth-link">
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+
+    <p class="auth-link">
+        <a href="site.html">← Back to Home</a>
+    </p>
+</div>
+
+<script>
+document.getElementById("registerForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const confirmPassword = document.getElementById("confirmPassword").value;
+    const message = document.getElementById("message");
+
+    if (password !== confirmPassword) {
+        message.style.color = "red";
+        message.textContent = "Passwords do not match";
+        return;
+    }
+
+    let users = JSON.parse(localStorage.getItem("users")) || [];
+
+    const userExists = users.find(user => user.email === email);
+    if (userExists) {
+        message.style.color = "red";
+        message.textContent = "User already exists. Please login.";
+        return;
+    }
+
+    users.push({ name, email, password });
+    localStorage.setItem("users", JSON.stringify(users));
+
+    message.style.color = "green";
+    message.textContent = "Registration successful! Redirecting to login...";
+
+    setTimeout(() => {
+        window.location.href = "login.html";
+    }, 1500);
+});
+</script>
+
+</body>
+</html>
