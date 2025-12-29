@@ -1,7 +1,7 @@
 const data= [
     {
         id : 0,
-        img : '/images/redmiK20.jpg',
+        img : 'images/redmiK20.jpg',
         name : 'Redmi K20',
         price : 19000,
         save : 25,
@@ -11,7 +11,7 @@ const data= [
     },
     {
         id : 1,
-        img : '/images/samGalaxynote20.jpg',
+        img : 'images/samGalaxynote20.jpg',
         name : 'Samsung Galaxy Note 20',
         price : 30000,
         save : 50,
@@ -21,7 +21,7 @@ const data= [
     },
     {
         id : 2,
-        img : '/images/oppofindX2.jpg',
+        img : 'images/oppofindX2.jpg',
         name : 'OPPO Find X2',
         price : 24000,
         save : 30,
@@ -31,7 +31,7 @@ const data= [
     },
     {
         id : 3,
-        img : '/images/realmeX20pro.jpg',
+        img : 'images/realmeX20pro.jpg',
         name : 'Realme X50 Pro',
         price : 28500,
         save : 35,
@@ -41,7 +41,7 @@ const data= [
     },
     {
         id : 4,
-        img : '/images/redminote8.jpg',
+        img : 'images/redminote8.jpg',
         name : 'Redmi Note 8',
         price : 20000,
         save : 15,
@@ -51,7 +51,7 @@ const data= [
     },
     {
         id : 5,
-        img : '/images/redminote9.jpg',
+        img : 'images/redminote9.jpg',
         name : 'Redmi Note 9',
         price : 22000,
         save : 25,
@@ -61,7 +61,7 @@ const data= [
     },
     {
         id : 6,
-        img : '/images/redmi8.jpg',
+        img : 'images/redmi8.jpg',
         name : 'Redmi 8A Dual',
         price : 16000,
         save : 20,
@@ -71,7 +71,7 @@ const data= [
     },
     {
         id : 7,
-        img : '/images/redmi9.jpg',
+        img : 'images/redmi9.jpg',
         name : 'Redmi 9',
         price : 10000,
         save : 10,
@@ -82,7 +82,7 @@ const data= [
     // Realme Phones
     {
         id : 8,
-        img : '/images/realme C11.jpg',
+        img : 'images/realme C11.jpg',
         name : 'Realme C11 (Rich Green, 32 GB) (2 GB RAM)',
         price : 17000,
         save : 20,
@@ -92,7 +92,7 @@ const data= [
     },
     {
         id : 9,
-        img : '/images/realmeNarzo.jpg',
+        img : 'images/realmeNarzo.jpg',
         name : 'Realme Narzo 20 (Victory Blue, 4 GB RAM, 128 GB Storage)',
         price : 21000,
         save : 25,
@@ -112,7 +112,7 @@ const data= [
     },
     {
         id : 11,
-        img : '/images/realmeC15.jpg',
+        img : 'images/realmeC15.jpg',
         name : 'Realme C15 (Power Silver, 4GB RAM, 64GB Storage)',
         price : 35000,
         save : 40,
@@ -123,7 +123,7 @@ const data= [
     // Oppo Phones
     {
         id : 12,
-        img : '/images/oppoA31.jpg',
+        img : 'images/oppoA31.jpg',
         name : 'Oppo A31 (Fantasy White, 6GB RAM, 128GB Storage)',
         price : 28000,
         save : 30,
@@ -133,7 +133,7 @@ const data= [
     },
     {
         id : 13,
-        img : '/images/oppA5s.jpg',
+        img : 'images/oppA5s.jpg',
         name : 'OPPO A5S (Black, 3GB RAM, 32GB Storage)',
         price : 19000,
         save : 20,
@@ -143,7 +143,7 @@ const data= [
     },
     {
         id : 14,
-        img : '/images/oppoF17.jpg',
+        img : 'images/oppoF17.jpg',
         name : 'OPPO F17 Pro (Matte Black, 8GB RAM, 128GB Storage)',
         price : 30000,
         save : 35,
@@ -153,7 +153,7 @@ const data= [
     },
     {
         id : 15,
-        img : '/images/oppoA15.jpg',
+        img : 'images/oppoA15.jpg',
         name : 'OPPO A15 (Dynamic Black, 3GB RAM, 32GB Storage)',
         price : 27500,
         save : 30,
@@ -164,7 +164,7 @@ const data= [
     // Samsung Phones
     {
         id : 16,
-        img : '/images/samgalaxyM01.jpg',
+        img : 'images/samgalaxyM01.jpg',
         name : 'Samsung Galaxy M01 (Blue, 3GB RAM, 32GB Storage)',
         price : 31000,
         save : 35,
@@ -174,7 +174,7 @@ const data= [
     },
     {
         id : 17,
-        img : '/images/samGalaxyM21.jpg',
+        img : 'images/samGalaxyM21.jpg',
         name : 'Samsung Galaxy M21 (Raven Black, 4GB RAM, 64GB Storage)',
         price : 40000,
         save : 45,
@@ -184,7 +184,7 @@ const data= [
     },
     {
         id : 18,
-        img : '/images/samsGalaxyNote20.jpg',
+        img : 'images/samsGalaxyNote20.jpg',
         name : 'Samsung Galaxy Note 20',
         price : 29000,
         save : 30,
@@ -194,7 +194,7 @@ const data= [
     },
     {
         id : 19,
-        img : '/images/samGalaxys20+.jpg',
+        img : 'images/samGalaxys20+.jpg',
         name : 'Samsung Galaxy S20 +',
         price : 35000,
         save : 40,
